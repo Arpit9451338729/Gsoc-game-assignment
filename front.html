@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💰Childhood Mystery Money Puzzle Game🧩</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Childhood Mystery Money Puzzle Game 🧩</h1>
+        <button id="start-button">Start Game</button>
+        
+        <div id="game-step" class="hidden">
+            <h2 id="step-indicator">Step 1</h2>
+
+            <!-- Step 1 -->
+            <div id="step-1" class="step">
+                <p>Think of a money 💰 amount in your mind and do not reveal it💭</p>
+                <button id="next-button-1">Next Step</button>
+            </div>
+
+            <!-- Step 2 -->
+            <div id="step-2" class="step hidden">
+                <p>Now, borrow the same amount of money💰 from your friend🤔💸</p>
+                <button id="next-button-2">Next Step</button>
+            </div>
+
+            <!-- Step 3 -->
+            <div id="step-3" class="step hidden">
+                <p>I am giving you this amount, be happy 💵😊</p>
+                <p id="random-number-display"></p>
+                <button id="next-button-3">Next Step</button>
+            </div>
+
+            <!-- Step 4 -->
+            <div id="step-4" class="step hidden">
+                <p>Add all three amounts together.➕💰</p>
+                <button id="next-button-4">Next Step</button>
+            </div>
+
+            <!-- Step 5 -->
+            <div id="step-5" class="step hidden">
+                <p>Now, halve the sum of all three amounts✂️💸</p>
+                <button id="next-button-5">Next Step</button>
+            </div>
+
+            <!-- Step 6 -->
+            <div id="step-6" class="step hidden">
+                <p>Now, give back the amount you borrowed from your friend🙌💵</p>
+                <button id="next-button-6">Next Step</button>
+            </div>
+
+            <!-- Step 7 -->
+            <div id="step-7" class="step hidden">
+                <p>I am going to reveal your number, but you didn't tell me yet... it's like magic! 😊</p>
+                <button id="reveal-button">Reveal My Number</button>
+            </div>
+
+            <!-- Result -->
+            <div id="result" class="step hidden">
+                <p id="result-message"></p>
+                <button id="play-again-button">Play Again</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
